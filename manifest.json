@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "本地翻译",
+  "version": "1.0",
+  "description": "调用本地 LibreTranslate 引擎，实现纯离线中、英、德、西互译",
+  "permissions": [],
+  "host_permissions": [
+    "http://127.0.0.1:5000/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "打开本地翻译"
+  }
+}
